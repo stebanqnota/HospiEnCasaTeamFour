@@ -1,7 +1,7 @@
 using System;
 namespace HospiEnCasa.App.Dominio
 {
-    public class Sujeto
+    public class Persona
     {
         public int Id  {get; set;}
         public string Nombre {get; set;}
