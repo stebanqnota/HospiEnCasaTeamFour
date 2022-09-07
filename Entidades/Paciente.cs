@@ -1,11 +1,17 @@
 using System;
 namespace HospiEnCasa.App.Dominio
 {
-    public class Paciente
+    public class Paciente : Persona
     {
-        public int Id  {get; set;}
-        public string Nombre {get; set;}
-        public string Apellidos {get; set;}
-        public string NumeroTelefono {get; set;}  
+        public string Direccion { get; set; }
+        public float Latitud { get; set; }
+        public float Longitud { get; set; }
+        public string Ciudad { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+        public FamiliarDesignado Familiar { get; set; }
+        public Enfermera Enfermera { get; set; }
+        public Medico Medico { get; set; }
+        public Historia Historia { get; set; }
+        public System.Collections.Generic.List<SignoVital> SignosVitales { get; set; }
     }
 }

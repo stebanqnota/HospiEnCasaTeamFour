@@ -1,12 +1,12 @@
-using System;
 namespace HospiEnCasa.App.Dominio
 {
-    public enum Genero
+      public enum Genero
     {
-        masculino, 
-        
-        femenino,
-        
+        Masculino,
+        Femenino,
+        Bisexual,
+        Intersexual,
+        Pansexual,
+        Transexual
     }
 }
-

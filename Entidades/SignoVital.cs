@@ -1,12 +1,12 @@
 using System;
+
 namespace HospiEnCasa.App.Dominio
 {
-    public class SignoVital
+    public class SignoVital 
     {
-       public int Id  {get; set;}
-        public string Nombre {get; set;}
-        public string Apellidos {get; set;}
-        public string NumeroTelefono {get; set;} 
+        public int Id { get; set; }
+        public DateTime FechaHora  { get; set; }
+        public float Valor {get;set;}
+        public TipoSigno Signo { get; set; }
     }
 }
-
