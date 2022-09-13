@@ -3,7 +3,7 @@ namespace HospiEnCasa.App.Dominio
        public enum TipoSigno
     {
         TensionArterial,
-        FrecuenciaCardica,
+        FrecuenciaCardiaca,
         FrecuenciaRespiratoria,
         SaturacionOxigeno,
         TemperaturaCorporal
